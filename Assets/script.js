@@ -18,15 +18,13 @@ $(document).ready(function () {
 
       var hour = Number(hourId.slice(hourId.search("-")+1));
 
-      if (currentHour<=hour) {
-        if (hour===currentHour) {
+        if (hour === currentHour) {
           $(slots[i]).addClass("present")
-        } else {
+        } if (currentHour < hour) {
           $(slots[i]).addClass("future")
-        }
-      } else {
+        } else { (currentHour > hour) 
         $(slots[i]).addClass("past")
-      }
+    }
 //localStorage info
       var stored = localStorage.getItem(hourId)
       $("#"+hourId).children("textarea").val(stored);
