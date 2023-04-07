@@ -14,6 +14,6 @@ Also worked with some classmates
 
 ## Link to Site
 My finished Website can be found here
-https://github.com/Ashlhc/Ash-Day-Planner.git
+https://ashlhc.github.io/Ash-Day-Planner/
 
 ![Screenshot1](https://user-images.githubusercontent.com/128103621/230555469-d2186d52-23c8-4b93-be0a-a37eb5f99830.jpg)
