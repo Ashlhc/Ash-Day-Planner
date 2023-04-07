@@ -7,7 +7,7 @@ $(document).ready(function () {
       localStorage.setItem(hIndex,eventsText);
     })
     
-    var currentHour = Number(dayjs().format());
+    var currentHour = Number(dayjs().format("HH"));
     var time = dayjs().format('MMM D, YYYY,hh:mm A');
     $("#currentTime").text(time);
 
